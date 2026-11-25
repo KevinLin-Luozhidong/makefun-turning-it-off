@@ -5,11 +5,12 @@ Writes one funny line (under 200 characters) that a hopeless tech support
 agent says to a desperate customer to /output/entry.txt (or
 $MAKEFUN_OUTPUT_DIR/entry.txt when set). Standard library only; no network,
 no files outside this repository.
+This version: the escalation collapses back onto the same agent at his own desk — cheerful uselessness as the joke, not a description of it.
 """
 
 import os
 
-LINE = "Let us turn it off and on again, and if that does not work I will transfer you to someone who will ask you to do the exact same thing."
+LINE = "Okay, I've escalated this all the way up — to me, at my desk, where I'm going to ask you to turn it off and on again."
 
 
 def main():
